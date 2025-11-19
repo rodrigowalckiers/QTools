@@ -38,7 +38,7 @@
             Inicializadores: Clique em start_windows.bat ou start_linux.sh
             Bash: python nome_do_arquivo.py
 
-## ⚠️ OBS INSTALAÇÃO
+### ⚠️ OBS INSTALAÇÃO
             Na primeira execução, o sistema criará a pasta data e instalará automaticamente:      
                 -customtkinter (interface gráfica)
                 -Pillow (processamento de imagens)
@@ -266,9 +266,12 @@ QTools Sistema de Qualidade e Gestão v0.1.5
 ### ✨DESENVOLVIDO POR
 👨‍💻 **Rodrigo Walckiers**
 
-### PARA
+---
+
+### Exercício Proposto Por:
 🏭 **Faculdade UniFECAF**
 
+---
 
 ### OPEN SOURCE - GNU LICENSE ###
     
