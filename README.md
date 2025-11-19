@@ -251,6 +251,7 @@ Status: APROVADA
     🔐 **Segurança**: Senhas são criptografadas com bcrypt (não são armazenadas em texto puro)
     📊 **Auditoria**: Todas as ações são registradas para rastreabilidade
     🎨 **Interface**: Otimizada para resoluções de 1000x700 ou superior
+    ⚠️ **Sobre as instruções**: Remover Peça, Ver Caixa e Gestão de Usuários não foram adicionados por serem módulos intuítivos.
 
 
 ### 📄 Versão
