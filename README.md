@@ -247,10 +247,10 @@ Status: APROVADA
     Solução: Verifique se a pasta data/ tem permissão de escrita.
 
 ### 📝 Notas Importantes
-⚠️ **Backup**: O sistema faz backups automáticos, mas recomenda-se copiar a pasta data/ periodicamente
-🔐 **Segurança**: Senhas são criptografadas com bcrypt (não são armazenadas em texto puro)
-📊 **Auditoria**: Todas as ações são registradas para rastreabilidade
-🎨 **Interface**: Otimizada para resoluções de 1000x700 ou superior
+    ⚠️ **Backup**: O sistema faz backups automáticos, mas recomenda-se copiar a pasta data/ periodicamente
+    🔐 **Segurança**: Senhas são criptografadas com bcrypt (não são armazenadas em texto puro)
+    📊 **Auditoria**: Todas as ações são registradas para rastreabilidade
+    🎨 **Interface**: Otimizada para resoluções de 1000x700 ou superior
 
 
 ### 📄 Versão
@@ -263,12 +263,12 @@ QTools Sistema de Qualidade e Gestão v0.1.5
         Revise o arquivo de auditoria: data/auditoria.json
 
 
-### ✨DESENVOLVIDO POR
+### ✨Desenvolvido Por:
 👨‍💻 **Rodrigo Walckiers**
 
 ---
 
-### Exercício Proposto Por:
+### ✨Exercício Proposto Por:
 🏭 **Faculdade UniFECAF**
 
 ---
