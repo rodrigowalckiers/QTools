@@ -254,9 +254,6 @@ Status: APROVADA
     ⚠️ **Sobre as instruções**: Remover Peça, Ver Caixa e Gestão de Usuários não foram adicionados por serem módulos intuítivos.
 
 
-### 📄 Versão
-QTools Sistema de Qualidade e Gestão v0.1.5
-
 ### ⚠️ Suporte
     Para dúvidas ou problemas:
         Verifique este README
@@ -273,6 +270,7 @@ QTools Sistema de Qualidade e Gestão v0.1.5
 🏭 **Faculdade UniFECAF**
 
 ---
-
-### OPEN SOURCE - GNU LICENSE ###
+### 📄 Versão
+QTools Sistema de Qualidade e Gestão v0.1.5
+OPEN SOURCE - GNU LICENSE
     
