@@ -38,7 +38,8 @@
             Inicializadores: Clique em start_windows.bat ou start_linux.sh
             Bash: python nome_do_arquivo.py
 
-⚠️ **OBS** Na primeira execução, o sistema criará a pasta data e instalará automaticamente:      
+## ⚠️ OBS INSTALAÇÃO
+            Na primeira execução, o sistema criará a pasta data e instalará automaticamente:      
                 -customtkinter (interface gráfica)
                 -Pillow (processamento de imagens)
                 -bcrypt (criptografia de senhas)
