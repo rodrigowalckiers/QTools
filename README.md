@@ -1,4 +1,4 @@
-### 🏭 QTools Sistema de Qualidade e Gestão v0.1.5 - Automação de Inspeção de Peças 📊 ### 
+### 🏭 QTools Sistema de Qualidade e Gestão v0.1.5 - Automação & Inspeção de Peças 📊 ### 
 
 ### 🔧 Funcionalidades:
         ✅ Dashboard em tempo real
