@@ -1,7 +1,7 @@
 ## 🏭 QTools - Sistema de Qualidade e Gestão v0.1.5 
 ### 📊 Automação & Inspeção de Peças  
 
-## 🔧 Funcionalidades:
+#### 🔧 Funcionalidades:
         ✅ Dashboard em tempo real
         ✅ Gestão completa de usuários & Peças
         ✅ Visualização de Caixas
@@ -13,20 +13,20 @@
         ✅ Timeout de sessão automático
         ✅ Backup automático
 
-## 🔜 Próxima Release v.0.1.6:
+#### 🔜 Próxima Release v.0.1.6:
         ⚠️ Configurações do Sistema
         ⚠️ Filtros por data em todas as telas
         ⚠️ Tela para análise da auditoria e logs
         ⚠️ Correção erro backups, centralização da tela
 
 
-## 🚀 Como Rodar o Programa
+#### 🚀 Como Rodar o Programa
         📦 Pré-requisitos
 
         Python 3.8 ou superior instalado
         Sistema operacional: Windows, Linux ou macOS
 
-## 📥 Instalação & Execução
+#### 📥 Instalação & Execução
         Opção 1: Instalação Automática (Recomendado)
         O programa instala automaticamente todas as dependências na primeira execução.
         # 1. Baixe o código ou faça o clone do repositório
@@ -39,7 +39,7 @@
             Inicializadores: Clique em start_windows.bat ou start_linux.sh
             Bash: python nome_do_arquivo.py
 
-## ⚠️ OBS INSTALAÇÃO
+#### ⚠️ OBS INSTALAÇÃO
             Na primeira execução, o sistema criará a pasta data e instalará automaticamente:      
                 -customtkinter (interface gráfica)
                 -Pillow (processamento de imagens)
@@ -52,7 +52,7 @@
                 pip install customtkinter Pillow bcrypt matplotlib reportlab tkcalendar
 
 
-## 🔐 Primeiro Acesso
+#### 🔐 Primeiro Acesso
     **Credenciais padrão:**
     -Usuário: admin
     -Senha: admin
@@ -61,15 +61,15 @@
 
 ---
 
-## 📖 Guia de Uso Passo a Passo
+#### 📖 Guia de Uso Passo a Passo
 
-## 1️⃣ Login no Sistema
+#### 1️⃣ Login no Sistema
 
 1. Execute o programa
 2. Digite as credenciais (admin/admin na primeira vez)
 3. Clique em **"Entrar no Sistema"**
 
-## 2️⃣ Cadastrar Nova Peça
+#### 2️⃣ Cadastrar Nova Peça
 
 1. No menu principal, clique em **"📝 Cadastrar Nova Peça"**
 2. Preencha os dados:
@@ -80,7 +80,7 @@
 3. Clique em **"✅ Cadastrar"**
 4. O sistema validará automaticamente e informará se foi aprovada ou reprovada
 
-## 3️⃣ Listar Peças
+#### 3️⃣ Listar Peças
 
 1. Clique em **"📋 Listar Peças"**
 2. Use as abas:
@@ -88,7 +88,7 @@
    - **"❌ Reprovadas":** peças que falharam
 3. Administradores/Supervisores podem excluir peças diretamente da lista
 
-## 4️⃣ Gerenciar Peças (CRUD - Admin)
+#### 4️⃣ Gerenciar Peças (CRUD - Admin)
 
 1. Clique em **"🔧 Gerenciar Peças (CRUD)"**
 2. Digite o ID da peça para buscar
@@ -98,7 +98,7 @@
    - **🗑️ Excluir:** remove a peça
    - **🔙 Cancelar:** volta ao menu
 
-## 5️⃣ Gerar Relatórios (Admin)
+#### 5️⃣ Gerar Relatórios (Admin)
 
 1. Clique em **"📊 Relatórios Avançados"**
 2. Escolha o tipo:
@@ -108,7 +108,7 @@
 3. Clique em **"Gerar Relatório"**
 4. Para exportar: **"📄 Exportar PDF"**
 
-## 6️⃣ Gestão de Usuários (Admin)
+#### 6️⃣ Gestão de Usuários (Admin)
 
 1. Clique em **"👥 Gestão de Usuários"**
 2. Operações:
@@ -117,7 +117,7 @@
    - **❌ Excluir:** remover usuário (exceto admin)
 3. Filtre por tipo: ativos, inativos, nível de acesso
 
-## 7️⃣ Configurações (Admin)
+#### 7️⃣ Configurações (Admin)
 
 1. Clique em **"⚙️ Configurações"**
 2. Abas disponíveis:
@@ -127,9 +127,9 @@
 
 ---
 
-## 💡 Exemplos de Uso
+#### 💡 Exemplos de Uso
 
-## Exemplo 1: Cadastro de Peça Aprovada
+#### Exemplo 1: Cadastro de Peça Aprovada
 
 **Entrada:**
 ```
@@ -149,7 +149,7 @@ Peça PECA001 APROVADA!
 - Turno: Manhã
 ```
 
-## Exemplo 2: Cadastro de Peça Reprovada
+#### Exemplo 2: Cadastro de Peça Reprovada
 
 **Entrada:**
 ```
@@ -170,7 +170,7 @@ Motivos:
 - Comprimento: 25.0cm (esperado: 10-20cm)
 ```
 
-## Exemplo 3: Relatório Diário
+#### Exemplo 3: Relatório Diário
 
 **Entrada:**
 ```
@@ -198,7 +198,7 @@ Data: 18/11/2025
 - Noite: 10 peças (90% aprovação)
 ```
 
-## Exemplo 4: Edição de Peça
+#### Exemplo 4: Edição de Peça
 
 **Entrada:**
 ```
@@ -217,7 +217,7 @@ Status: APROVADA
 
 ---
 
-## ⚙️ Configurações Padrão
+#### ⚙️ Configurações Padrão
     Critérios de Qualidade:
         Peso: 95g - 105g
         Cores aceitas: azul, verde
@@ -234,7 +234,7 @@ Status: APROVADA
         Taxa de aprovação mínima: 85%
         Alerta de reprovação alta: 15%
 
-## 🛠️ Solução de Problemas
+#### 🛠️ Solução de Problemas
     Erro: "ModuleNotFoundError"
     Solução: Execute novamente o programa. Ele instalará as dependências automaticamente.
     ---
@@ -247,7 +247,7 @@ Status: APROVADA
     Dados não são salvos
     Solução: Verifique se a pasta data/ tem permissão de escrita.
 
-## 📝 Notas Importantes
+#### 📝 Notas Importantes
     ⚠️ **Backup**: O sistema faz backups automáticos, mas recomenda-se copiar a pasta data/ periodicamente
     🔐 **Segurança**: Senhas são criptografadas com bcrypt (não são armazenadas em texto puro)
     📊 **Auditoria**: Todas as ações são registradas para rastreabilidade
@@ -255,23 +255,23 @@ Status: APROVADA
     ⚠️ **Sobre as instruções**: Remover Peça, Ver Caixa e Gestão de Usuários não foram adicionados por serem módulos intuítivos.
 
 
-## ⚠️ Suporte
+#### ⚠️ Suporte
     Para dúvidas ou problemas:
         Verifique este README
         Consulte os logs em data/logs/
         Revise o arquivo de auditoria: data/auditoria.json
 
 
-## ✨Desenvolvido Por:
+#### ✨Desenvolvido Por:
 👨‍💻 **Rodrigo Walckiers**
 
 ---
 
-## ✨Exercício Proposto Por:
+#### ✨Exercício Proposto Por:
 🏭 **Faculdade UniFECAF**
 
 ---
-## 📄 Versão
+#### 📄 Versão
 QTools - Sistema de Qualidade e Gestão v0.1.5
 
 ### OPEN SOURCE - GNU LICENSE
