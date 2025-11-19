@@ -1,6 +1,6 @@
 """
-Sistema de Controle de Qualidade Industrial
-QTools - Versão 3.1.1
+QTools Sistema de Qualidade e Gestão 
+Versão 0.1.5
 """
 
 # ====================================================================================
