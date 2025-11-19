@@ -272,5 +272,6 @@ Status: APROVADA
 ---
 ### 📄 Versão
 QTools Sistema de Qualidade e Gestão v0.1.5
-OPEN SOURCE - GNU LICENSE
+
+### OPEN SOURCE - GNU LICENSE
     
