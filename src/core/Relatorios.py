@@ -50,7 +50,7 @@ class Relatorios:
             )
             
             story.append(Paragraph("🏭 RELATÓRIO DE CONTROLE DE QUALIDADE", titulo_style))
-            story.append(Paragraph(f"Sistema Industrial - Versão 3.1.1", styles['Normal']))
+            story.append(Paragraph(f"QTools Sistema de Qualidade e Gestão - Versão 0.1.5", styles['Normal']))
             story.append(Spacer(1, 0.5*cm))
             
             # Informações do relatório
@@ -196,7 +196,7 @@ class Relatorios:
             # Rodapé
             story.append(Spacer(1, 2*cm))
             rodape = Paragraph(
-                f"Relatório gerado automaticamente - Sistema de Controle de Qualidade v3.1.1<br/>"
+                f"Relatório gerado automaticamente - QTools Sistema de Qualidade e Gestão v0.1.5<br/>"
                 f"© {datetime.now().year} - Todos os direitos reservados",
                 styles['Normal']
             )
