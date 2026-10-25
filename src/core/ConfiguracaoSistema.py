@@ -87,6 +87,7 @@ class ConfiguracaoSistema:
             return cls.CONFIG_PADRAO.copy()
     
     @classmethod
+    # PR000004{
     def salvar_configuracao(cls, config: Dict):
         """Salva configurações"""
         try:
@@ -94,9 +95,9 @@ class ConfiguracaoSistema:
                 json.dump(config, f, indent=2, ensure_ascii=False)
             return True
         except Exception as e:
-            cls.registrar_log(f"Erro ao salvar config: {e}", "ERRO")
+            cls.registrar_log(f"Erro ao salvar configações: {e}", "ERRO")
             return False
-    
+    # }PR000004
     @classmethod
     def registrar_log(cls, mensagem: str, tipo: str = "INFO"):
         """Registra log"""
