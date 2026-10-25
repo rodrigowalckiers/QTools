@@ -1,0 +1,24 @@
+{
+    "codigo": "PR000003",
+    "versao": 1,
+    "sha_commit_analisado": "f3096d48eb1c32a1c83dbb0f42c55340cba71af5",
+    "sha_main_base": "74e3873f40880a06c8403dd45d7ade910db6d23a",
+    "nivel_sugerido": "standard",
+    "recomendacao": "Revisão humana obrigatória; este parecer não aprova nem faz merge.",
+    "arquivos_sem_analise": [],
+    "resumo": "A única alteração identificada foi a modificação da mensagem exibida ao usuário na função `aplicar_filtro` da classe `HomeView`, localizada na linha 252 do arquivo `src/view/HomeView.py`. A mensagem foi ajustada de \"Recurso em desenvolvimento\" para \"Recurso ainda em desenvolvimento.\"",
+    "impacto": "Baixo. A alteração é meramente cosmética e não afeta a funcionalidade do sistema, apenas a mensagem exibida ao usuário.",
+    "riscos": "Não há riscos associados a essa mudança. A alteração não introduz bugs, vulnerabilidades ou altera o comportamento do sistema.",
+    "achados": [
+        {
+            "arquivo": "src/view/HomeView.py",
+            "descricao": "A mensagem exibida ao usuário na função `aplicar_filtro` foi alterada de 'Recurso em desenvolvimento' para 'Recurso ainda em desenvolvimento.' A mudança é apenas textual e não afeta a lógica do sistema.",
+            "linha": 252
+        }
+    ],
+    "status": "ok",
+    "provedor": "mistral",
+    "fallback": true,
+    "modelo": "ministral-14b-2512",
+    "tokens": 47765
+}
