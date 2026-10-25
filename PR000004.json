@@ -1,0 +1,33 @@
+{
+    "codigo": "PR000004",
+    "versao": 1,
+    "sha_commit_analisado": "231a2c95afd56998c269cab0bf6f632a73e66627",
+    "sha_main_base": "79d83fb25b6b74d1b5fe3e320c51426fdb3fa8ee",
+    "nivel_sugerido": "standard",
+    "recomendacao": "Revisão humana obrigatória; este parecer não aprova nem faz merge.",
+    "arquivos_sem_analise": [],
+    "resumo": "A proposta altera apenas a mensagem de erro registrada no método salvar_configuracao, inserindo comentários de marcação PR000004 e alterando o texto para \"Erro ao salvar configações\". Não há alterações de lógica ou de comportamento funcional.",
+    "impacto": "Baixo. A mudança afeta apenas o conteúdo textual escrito nos logs de erro, sem impactar a execução do código ou a persistência de dados.",
+    "riscos": "Nenhum risco de segurança ou de falha de execução foi introduzido. O único ponto a observar é o erro de digitação na nova mensagem de log, que pode dificultar buscas ou análises automatizadas de logs que esperam a mensagem anterior.",
+    "achados": [
+        {
+            "arquivo": "src/core/ConfiguracaoSistema.py",
+            "descricao": "Mensagem de log alterada para \"Erro ao salvar configações\", contendo erro de digitação (\"configações\" em vez de \"config\").",
+            "linha": 71
+        },
+        {
+            "arquivo": "src/core/ConfiguracaoSistema.py",
+            "descricao": "Inseridos comentários de marcação \"# PR000004{\" e \"# }PR000004\" ao redor do método salvar_configuracao. Comentários não afetam a execução, mas podem gerar ruído no código.",
+            "linha": 66
+        },
+        {
+            "arquivo": "src/core/ConfiguracaoSistema.py",
+            "descricao": "Ausência de importação do módulo datetime, que é utilizado em registrar_log e registrar_auditoria. O mesmo problema já existia na versão base, mas permanece sem correção."
+        }
+    ],
+    "status": "ok",
+    "provedor": "groq",
+    "fallback": false,
+    "modelo": "openai/gpt-oss-120b",
+    "tokens": 3912
+}
