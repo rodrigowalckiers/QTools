@@ -1,1 +1,19 @@
-{"codigo":"PR000002","versao":1,"sha_commit_analisado":"fd5b4a023899926a1323ba079657450d82b3737d","sha_main_base":"74e3873f40880a06c8403dd45d7ade910db6d23a","status":"failed_final","modelo":"nenhum","nivel_sugerido":"standard","recomendacao":"revisão humana obrigatória","resumo":"Grok e Mistral indisponíveis. Revisão humana ampliada.","riscos":"Grok e Mistral indisponíveis. Revisão humana ampliada.","arquivos_sem_analise":[]}
+{
+    "codigo": "PR000002",
+    "versao": 1,
+    "sha_commit_analisado": "fd5b4a023899926a1323ba079657450d82b3737d",
+    "sha_main_base": "74e3873f40880a06c8403dd45d7ade910db6d23a",
+    "nivel_sugerido": "standard",
+    "recomendacao": "Revisão humana obrigatória; este parecer não aprova nem faz merge.",
+    "arquivos_sem_analise": [
+        "src/view/HomeView.py"
+    ],
+    "status": "failed_final",
+    "modelo": "nenhum",
+    "resumo": "A análise não foi executada: o conteúdo excede o limite configurado.",
+    "impacto": "Não avaliado.",
+    "riscos": "A revisão humana deve examinar todos os arquivos enviados.",
+    "achados": [],
+    "erro": "Nenhum arquivo coube no limite de contexto da análise.",
+    "tokens": 0
+}
