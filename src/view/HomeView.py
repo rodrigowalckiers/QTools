@@ -383,7 +383,7 @@ class HomeView:
         self.entry_data_max = DatePicker(comp_col1, width=140, height=25)
         self.entry_data_max.pack(side="left")
         
-        # PR000002{
+        # PR000005{
         #Em desenvolvimento
         def aplicar_filtro():
             # self.resetar_timeout()
@@ -396,7 +396,7 @@ class HomeView:
             messagebox.showwarning("EM BREVE", "Recurso ainda em desenvolvimento.")
             
         ctk.CTkButton(comp_col1, text="🔍 Filtrar", width=100, command=aplicar_filtro, fg_color="#3498db").pack(side="left", padx=5)
-        # }PR000002
+        # }PR000005
         
         # Tabs
         tabview = ctk.CTkTabview(main_frame)
