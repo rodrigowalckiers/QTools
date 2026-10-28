@@ -1,0 +1,24 @@
+{
+    "codigo": "PR000005",
+    "versao": 1,
+    "sha_commit_analisado": "633833ef844d8a8883146b4cd393f3a499ce0d3b",
+    "sha_main_base": "79d83fb25b6b74d1b5fe3e320c51426fdb3fa8ee",
+    "nivel_sugerido": "standard",
+    "recomendacao": "Revisão humana obrigatória; este parecer não aprova nem faz merge.",
+    "arquivos_sem_analise": [],
+    "resumo": "A proposta de alteração no arquivo `src/view/HomeView.py` não apresenta mudanças funcionais significativas em relação à versão base. A única modificação identificada é a alteração de uma marcação de solicitação de PR (PR000002 para PR000005) na função `tela_listar_pecas`, que não afeta o comportamento do sistema. Não foram identificadas alterações de código que impactem bugs, segurança, funcionalidade ou aderência à descrição da solicitação (demonstração do sistema).",
+    "impacto": "Nenhum impacto funcional ou de comportamento. A alteração é meramente documental (mudança de marcação de PR) e não afeta a lógica ou a interface do sistema.",
+    "riscos": "Não há riscos associados a esta alteração, pois não há mudanças no código-fonte ou lógica do sistema.",
+    "achados": [
+        {
+            "arquivo": "src/view/HomeView.py",
+            "descricao": "Alteração de marcação de solicitação de PR de `PR000002` para `PR000005` no comentário da função `tela_listar_pecas`. Essa mudança não afeta o comportamento do sistema, apenas a documentação interna.",
+            "linha": 394
+        }
+    ],
+    "status": "ok",
+    "provedor": "mistral",
+    "fallback": true,
+    "modelo": "ministral-14b-2512",
+    "tokens": 49304
+}
